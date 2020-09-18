@@ -1,8 +1,8 @@
 ## Шевелев Александр
 
 ## контакты
-:mailbox_closed: Почта:as1405503@gmail.com     
-:pager: Telegram: [@sanek_nyst](https://t.me/sanek_nyst)
+Почта:as1405503@gmail.com     
+Telegram: [@sanek_nyst](https://t.me/sanek_nyst)
 
 ## Цель
  усовершенствовать свои навыки и найти работу.
