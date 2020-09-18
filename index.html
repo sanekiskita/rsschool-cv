@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head lang="ru">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Документ</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Шевелев Александр</h1>
+    <h2>Контакты</h2>
+    <div class="info">
+      <img src="img/face1.jpg" alt="фото">
+      <div>
+        <ul>
+          <li>telegram: <a href="https://t.me/sanek_nyst">@sanek_nyst</a></li>
+          <li style="margin-bottom: 0px;">Почта: <a href="mailto:as1405503@gmail.com">as1405503@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <div>
+        <h2>Цель</h2>
+        <p> усовершенствовать свои навыки и найти работу.</p>
+        <h2>Знание языков</h2>
+        <ul>
+          <li>c++</li>
+          <li>c#</li>
+          <li>javascript</li>
+          <li>SQL</li>
+          <li>HTML</li>
+          <li>PHP</li>
+        </ul>
+        <h2>Знание методологий</h2>
+        <ul>
+          <li>agile</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Отрывок рабочего кода</h2>
+
+        <pre>public void pictureBox_Paint(object sender, PaintEventArgs e)
+            {
+                e.Graphics.Clear(Color.Black);
+                Pen p1 = new Pen(Color.Red, width: 10);
+                Pen p = new Pen(Color.Green, width: 20);
+                Pen p2 = new Pen(Color.Yellow, width: 5);
+                Pen p3 = new Pen(Color.Blue, width: 2);
+
+                for (int i = 0; i < n2; i = 1 + i)
+                {
+                    for (int j = 0; j < n2; j = 1 + j)
+                        if (mtx[i + j * n2] == 1)
+                        {
+                            e.Graphics.DrawLine(p1, pos[i * 2], pos[i * 2 + 1], pos[j * 2], pos[j * 2 + 1]);//линии
+                        }
+                }
+
+
+                for (int i = 0; i <= n2 * 2 - 1; i = i + 2)
+                {
+                    e.Graphics.DrawEllipse(p, pos[i] - 10, pos[i + 1] - 10, 20, 20);// создание кружков
+                }
+
+                //выделение круга фикс
+                if (sel >= -1)
+                {
+                    for (int i = 0; i < n2; i++)
+                    {
+                        int dx = x - pos[i * 2];
+                        int dy = y - pos[i * 2 + 1];
+                        if (dx * dx + dy * dy <= 20 * 20)
+                        {
+                            e.Graphics.DrawEllipse(p2, pos[i * 2] - 20, pos[i * 2 + 1] - 20, 40, 40);//желтый
+                            break;
+                        }
+
+                    }
+                }
+                //выделение круга при удалении
+                if (yx >= 0 || vid == 1)
+                {
+                    e.Graphics.DrawEllipse(p3, pos[yx * 2] - 20, pos[yx * 2 + 1] - 20, 40, 40);//синий
+                    vid = 1;
+                }
+            }</pre>
+        <h2>Опыт</h2>
+        <p>Есть опыт работы в создании сайта с подключением базы данных без использования CMS.</p>
+      </div>
+      <div>
+        <h2>Образование</h2>
+        <p> Среднее профессиональное образование по специальности. 09.02.03 (2020г.) </p>
+      </div>
+      <div>
+        <h2>Английский</h2>
+        <p>Intermediate</p>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
