@@ -1,8 +1,8 @@
 ## Шевелев Александр
 
 ## контакты
-* :mailbox_closed: Почта:as1405503@gmail.com
-* :pager: telegram: [@sanek_nyst](https://t.me/sanek_nyst)
+:mailbox_closed: Почта:as1405503@gmail.com
+:pager: telegram: [@sanek_nyst](https://t.me/sanek_nyst)
 
 ## Цель
  усовершенствовать свои навыки и найти работу.
@@ -12,7 +12,7 @@ c++ c#, javascript, SQL, HTML, PHP. Изучал методологию agile.
 
 ## Отрывок программы:
 
- ```C#
+ ```
   public void pictureBox_Paint(object sender, PaintEventArgs e)
             {
                 e.Graphics.Clear(Color.Black);
@@ -58,7 +58,8 @@ c++ c#, javascript, SQL, HTML, PHP. Изучал методологию agile.
                     vid = 1;
                 }
             }
-            ```
+```
+
 ## Опыт
 Есть опыт работы в создании сайта с подключением базы данных без использования CMS.
 
